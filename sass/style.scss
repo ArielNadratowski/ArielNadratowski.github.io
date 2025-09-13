@@ -1,0 +1,30 @@
+$bg-color: #ead1ff;
+$textbox-bg-color: #ffffff;
+$heading-color: #22003f;
+$text-color: #53465d;
+
+html {
+    background-color: $bg-color;
+}
+
+.textbox {
+    background-color: $textbox-bg-color;
+}
+
+.body_textbox {
+    background-color: $textbox-bg-color;
+    line-height: .5;
+}
+
+.htextbox {
+    display: flex;
+    flex-direction: row
+}
+
+h1, h2, h3, h4, h5 {
+    color: $heading-color;
+}
+
+p {
+    color: $text-color;
+}
