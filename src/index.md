@@ -1,6 +1,6 @@
 ---
 layout: default.html
-title: whatever
+title: ArielNadratowski
 ---
 
 <div class="title_box">
