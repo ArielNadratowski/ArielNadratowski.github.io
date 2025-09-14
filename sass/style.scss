@@ -4,21 +4,37 @@ $heading-color: #22003f;
 $text-color: #53465d;
 
 html {
+    display: flex;
     background-color: $bg-color;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    justify-content: center;
 }
 
 .textbox {
     background-color: $textbox-bg-color;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 25px;
+}
+
+.right_textbox {
+    background-color: $textbox-bg-color;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 25px;
+    max-width: 50vw;
+    height: auto;
 }
 
 .body_textbox {
     background-color: $textbox-bg-color;
-    line-height: .5;
+    line-height: 1.5;
 }
 
 .htextbox {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
 }
 
 h1, h2, h3, h4, h5 {
@@ -27,4 +43,19 @@ h1, h2, h3, h4, h5 {
 
 p {
     color: $text-color;
+}
+
+.profile_pic {
+    border-radius: 25px;
+    width: 30vw;
+    height: auto;
+}
+
+.left_col {
+    width: 30vw;
+    height: auto;
+}
+
+.title_box {
+    text-align: center;
 }

@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:sass": "npx sass sass:_site/css --watch",
     "watch:11ty": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy & npx sass sass:_site/css",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'ArielNadratowski.github.io'",
     "watch": "npm run watch:11ty & npm run watch:sass",
     "clean": "rm -r _site"
   },
